@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["styles.scss"],"names":[],"mappings":"AAAA","sourcesContent":["/* styles.scss */"],"file":"styles.css"}
+{"version":3,"sourceRoot":"","sources":["../../_sass/main.scss"],"names":[],"mappings":"AAAA;AAAA;EAEE;EACA","sourcesContent":["article p,\narticle li {\n  word-spacing: 0.1em;\n  letter-spacing: 0.01em;\n}"],"file":"styles.css"}

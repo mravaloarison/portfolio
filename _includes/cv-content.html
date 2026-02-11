@@ -1,0 +1,151 @@
+<!-- Header -->
+<section class="mb-5">
+    <h1 class="h4 fw-medium mb-2">
+        {{ site.first_name }} {{ site.last_name }}
+    </h1>
+
+    <p class="text-muted small mb-2">Data Analyst</p>
+
+    <div class="d-flex gap-3 mb-4 text-muted small">
+        <a href="https://linkedin.com/in/{{ site.linkedin }}" target="_blank"
+            class="link-secondary text-decoration-none">
+            <i class="bi bi-linkedin me-1"></i> LinkedIn
+        </a>
+
+        <a href="https://github.com/{{ site.github }}" target="_blank" class="link-secondary text-decoration-none">
+            <i class="bi bi-github me-1"></i> GitHub
+        </a>
+
+        <a href="{{ site.cv_pdf }}" class="link-secondary text-decoration-none">
+            <i class="bi bi-cloud-arrow-down me-1"></i> Resume
+        </a>
+    </div>
+</section>
+
+<hr class="my-5">
+
+<!-- About -->
+<section class="mb-5">
+    <h2 class="h4 fw-medium mb-4">About</h2>
+
+    <article>
+        {{ site.about_me | markdownify }}
+    </article>
+</section>
+
+
+<hr class="my-5">
+
+<section class="mb-5">
+    <h2 class="h4 fw-medium mb-4">Education</h2>
+
+    {% for edu in site.sections.Education %}
+    <div class="mb-4">
+        <h3 class="h6 fw-semibold mb-1">
+            {{ edu.studyType }}{% if edu.area %}, {{ edu.area }}{% endif %}
+        </h3>
+
+        <p class="text-muted small mb-2">
+            {{ edu.institution }} — {{ edu.location }}<br>
+            {{ edu.start_date }} – {{ edu.end_date }}
+            {% if edu.score %} · {{ edu.score }}{% endif %}
+            {% if edu.minor %} · Minor: {{ edu.minor }}{% endif %}
+        </p>
+    </div>
+    {% endfor %}
+</section>
+
+<hr class="my-5">
+
+<!-- Experience -->
+<section class="mb-5">
+    <h2 class="h4 fw-medium mb-4">Experience</h2>
+
+    {% for job in site.sections.Experience %}
+    <div class="mb-4">
+        <h3 class="h6 fw-semibold mb-1">{{ job.position }}</h3>
+
+        <p class="text-muted small mb-2">
+            {{ job.company }} — {{ job.location }}<br>
+            {{ job.start_date }} – {{ job.end_date }}
+        </p>
+
+        <ul class="ps-3">
+            {% for h in job.highlights %}
+            <li class="mb-1">{{ h }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endfor %}
+</section>
+
+<hr class="my-5">
+
+<!-- Awards -->
+<section class="mb-5">
+    <h2 class="h4 fw-medium mb-4">Awards</h2>
+
+    {% for award in site.sections.Awards %}
+    <div class="mb-4">
+        <h3 class="h6 fw-semibold mb-1">{{ award.title }}</h3>
+
+        <p class="text-muted small mb-2">
+            {{ award.awarder }} · {{ award.date }}
+        </p>
+
+        <p class="mb-2">{{ award.summary }}</p>
+
+        {% if award.url %}
+        <a href="{{ award.url }}" target="_blank" rel="noopener" class="text-decoration-none link-secondary">
+            <i class="bi bi-box-arrow-up-right me-1"></i>
+            View
+        </a>
+        {% endif %}
+    </div>
+    {% endfor %}
+</section>
+
+<hr class="my-5">
+
+<!-- Languages -->
+<section class="mb-5">
+    <h2 class="h4 fw-medium mb-4">Languages</h2>
+
+    <ul class="list-unstyled">
+        {% for lang in site.sections.Languages %}
+        <li class="mb-2">
+            <strong>{{ lang.name }}</strong>: {{ lang.summary }}
+        </li>
+        {% endfor %}
+    </ul>
+</section>
+
+<hr class="my-5">
+
+<!-- Interests -->
+<section class="mb-5">
+    <h2 class="h4 fw-medium mb-4">Interests</h2>
+
+    {% for interest in site.sections.Interests %}
+    <p class="mb-3">
+        <strong>{{ interest.name }}</strong><br>
+        <span class="text-muted small">{{ interest.keywords }}</span>
+    </p>
+    {% endfor %}
+</section>
+
+<hr class="my-5">
+
+<!-- Certificates -->
+<section class="mb-5">
+    <h2 class="h4 fw-medium mb-4">Certificates</h2>
+
+    {% for cert in site.sections.Certificates %}
+    <p class="mb-3">
+        <strong>{{ cert.name }}</strong><br>
+        <span class="text-muted small">
+            {{ cert.issuer }} · {{ cert.date }}
+        </span>
+    </p>
+    {% endfor %}
+</section>
