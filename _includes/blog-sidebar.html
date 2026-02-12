@@ -5,22 +5,22 @@
 <div class="d-flex flex-wrap gap-2">
 
     <!-- All Posts -->
-    <a href="{{ '/blog/' | relative_url }}" class="small border px-2 py-1 rounded text-decoration-none d-inline-flex align-items-center gap-1
-     {% unless current_tag %} fw-medium {% else %} text-muted {% endunless %}" {% unless current_tag %} style="border-color: var(--bs-secondary);
-              background-color: rgba(var(--bs-secondary-rgb), 0.08);
-              color: var(--bs-secondary);" {% endunless %}>
+    <a href="#"
+        class="small border px-2 py-1 rounded text-decoration-none d-inline-flex align-items-center gap-1 tag-filter text-muted"
+        data-tag="">
         <i class="bi bi-tag-fill"></i>
         All
     </a>
 
+
     {% assign tags = site.tags | sort %}
     {% for tag in tags %}
-    <a href="{{ '/tag/' | append: tag[0] | append: '/' | relative_url }}" class="small border px-2 py-1 rounded text-decoration-none d-inline-flex align-items-center gap-1
-       {% if current_tag == tag[0] %} fw-medium {% else %} text-muted {% endif %}" {% if current_tag==tag[0] %} style="border-color: var(--bs-secondary);
-                background-color: rgba(var(--bs-secondary-rgb), 0.08);
-                color: var(--bs-secondary);" {% endif %}>
+    {% assign count = tag[1].size %}
+    <a href="#"
+        class="small border px-2 py-1 rounded text-decoration-none d-inline-flex align-items-center gap-1 tag-filter text-muted"
+        data-tag="{{ tag[0] }}">
         <i class="bi bi-tag-fill"></i>
-        {{ tag[0] }}
+        {{ tag[0] }} ({{ count }})
     </a>
     {% endfor %}
 

@@ -3,8 +3,10 @@ layout: blog
 title: Blog
 ---
 
-{% for post in paginator.posts %}
+{% for post in site.posts %}
 {% include blog-post-card.html post=post %}
 {% endfor %}
 
-{% include blog-pagination.html %}
+<nav class="mt-5">
+    <ul id="blog-pagination" class="pagination justify-content-center gap-2 border-0"></ul>
+</nav>
