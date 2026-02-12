@@ -69,10 +69,7 @@ article a {
   background-color: rgba(var(--bs-secondary-rgb), 0.05);
 }
 
-/* =========================
-   Theme Switch
-   ========================= */
-
+// Theme switch
 .theme-switch {
   width: 56px;
   height: 28px;
@@ -108,7 +105,6 @@ article a {
   box-shadow: 0 1px 4px rgba(0,0,0,0.15);
 }
 
-/* Dark mode position */
 [data-bs-theme="dark"] .switch-thumb {
   transform: translateX(28px);
 }

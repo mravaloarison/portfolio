@@ -12,9 +12,11 @@ layout: default
         </aside>
 
         <section class="col-12 col-md-8 col-lg-8">
+            {% include blog-header.html %}
 
-            <div class="d-md-none mb-4">
+            <div class="d-md-none my-5">
                 {% include blog-mobile-filter.html %}
+                <hr class="my-5">
             </div>
 
             {{ content }}
