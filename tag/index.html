@@ -1,11 +1,20 @@
 ---
 layout: blog
+tag:
 ---
 
-{% assign tag_name = page.url | split: '/' | last %}
+{% assign current_tag = page.tag %}
 
-{% if tag_name == 'tag' or tag_name == '' %}
-<!-- If someone visits /tag/ directly, show all posts grouped -->
+{% if current_tag %}
+
+{% for post in site.posts %}
+{% if post.tags contains current_tag %}
+{% include blog-post-card.html post=post %}
+{% endif %}
+{% endfor %}
+
+{% else %}
+
 {% for tag in site.tags %}
 <h5 class="fw-semibold mt-5 mb-3">#{{ tag[0] }}</h5>
 
@@ -14,11 +23,4 @@ layout: blog
 {% endfor %}
 {% endfor %}
 
-{% else %}
-<!-- If visiting /tag/something/ -->
-{% for post in site.posts %}
-{% if post.tags contains tag_name %}
-{% include blog-post-card.html post=post %}
-{% endif %}
-{% endfor %}
 {% endif %}
