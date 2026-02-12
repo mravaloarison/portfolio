@@ -24,8 +24,9 @@
     {% if include.post.tags %}
     <div class="mb-3 d-flex flex-wrap gap-2">
         {% for tag in include.post.tags %}
-        <a href="{{ '/tag_index/' | relative_url }}#{{ tag[0] | slugify }}"
-            class="small border text-muted px-2 py-1 rounded text-decoration-none d-inline-flex align-items-center gap-1">
+        <a href="#"
+            class="small border text-muted px-2 py-1 rounded text-decoration-none d-inline-flex align-items-center gap-1 tag-filter"
+            data-tag="{{ tag }}">
             <i class="bi bi-tag-fill"></i>
             {{ tag }}
         </a>
