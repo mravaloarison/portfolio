@@ -46,8 +46,8 @@ hr {
   font-weight: 600;
 }
 
-.post-body a {
-  color: var(--bs-primary);
+.post-body a,
+article a {
   text-decoration: none;
 }
 

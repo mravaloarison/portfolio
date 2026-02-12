@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home</title>
+    <title>About me</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
@@ -26,6 +26,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
 
+                
+                
+                <li class="nav-item">
+                    <a class="nav-link active" href="/">
+                        About me
+                    </a>
+                </li>
                 
                 
                 <li class="nav-item">
@@ -113,42 +120,43 @@
       <!-- Header -->
 <section class="mb-5">
 
-    <div class="d-lg-flex justify-content-between align-items-start">
+    <div class="d-lg-flex justify-content-between align-items-start gap-4">
 
-        <!-- Left side -->
-        <div>
+        <!-- Left -->
+        <div class="mb-4 mb-lg-0">
+
             <h1 class="h4 fw-medium mb-2">
                 Mami Ravaloarison
             </h1>
 
-            <p class="text-muted small mb-1">
-                Data Analyst
-            </p>
+            <div class="text-muted small mb-3">
+                <div>Data Analyst</div>
+                <div>New York, USA</div>
+            </div>
 
-            <p class="text-muted small mb-2">
-                New York, USA
-            </p>
-
-            <p class="mb-2">
+            <div class="mb-3">
                 <a href="mailto:mravaloarison@gmail.com" class="text-decoration-none">
                     <i class="bi bi-envelope-fill me-1"></i>
                     mravaloarison@gmail.com
                 </a>
-            </p>
+            </div>
 
-            <div class="d-flex flex-wrap gap-2 small">
+            <div class="d-flex flex-wrap align-items-center gap-2 small text-muted">
                 <a href="https://linkedin.com/in/mravaloarison" target="_blank" class="text-decoration-none text-muted">
                     <i class="bi bi-linkedin me-1"></i> LinkedIn
                 </a>
-                <i class="bi bi-dot"></i>
+
+                <span class="opacity-50">•</span>
+
                 <a href="https://github.com/mravaloarison" target="_blank" class="text-decoration-none text-muted">
                     <i class="bi bi-github me-1"></i> GitHub
                 </a>
             </div>
+
         </div>
 
-        <!-- Right side -->
-        <div class="mt-3 mt-lg-0">
+        <!-- Right -->
+        <div>
             <a href="/assets/pdf/resume.pdf" class="btn btn-outline-secondary" target="_blank">
                 <i class="bi bi-cloud-arrow-down me-1"></i> Resume
             </a>
@@ -157,8 +165,6 @@
     </div>
 
 </section>
-
-
 
 <hr class="my-5" id="about" />
 
@@ -180,45 +186,57 @@
     </article>
 </section>
 
-
 <hr class="my-5" id="education" />
 
+<!-- Education -->
 <section class="mb-5">
     <h2 class="h4 fw-medium mb-4">Education</h2>
 
     
     <div class="mb-4">
+
         <h3 class="h6 fw-semibold mb-1">
             Bachelor of Science (Magna Cum Laude), Computer Information Systems
         </h3>
-        <p class="text-muted small mb-0">
-            Monroe University — Bronx, New York
-        </p>
-        <div class="d-flex flex-wrap gap-2 text-muted small">
 
-            <p>2021 – 2025</p>
-            
-            <i class="bi bi-dot"></i>
-            <p>3.7/4.0 GPA</p>
-            
-            <i class="bi bi-dot"></i>
-            <p>Minor: Mathematics</p>
+        <div class="text-muted small mb-2">
+            Monroe University — Bronx, New York
         </div>
+
+        <div class="d-flex flex-wrap align-items-center gap-2 text-muted small">
+            <span>2021 – 2025</span>
+
+            
+            <span class="opacity-50">•</span>
+            <span>3.7/4.0 GPA</span>
+            
+
+            
+            <span class="opacity-50">•</span>
+            <span>Minor: Mathematics</span>
+            
+        </div>
+
     </div>
     
     <div class="mb-4">
+
         <h3 class="h6 fw-semibold mb-1">
             Baccalauréat, Scientific
         </h3>
-        <p class="text-muted small mb-0">
-            Lycée Privé ACEEM — Madagascar
-        </p>
-        <div class="d-flex flex-wrap gap-2 text-muted small">
 
-            <p>2015 – 2018</p>
+        <div class="text-muted small mb-2">
+            Lycée Privé ACEEM — Madagascar
+        </div>
+
+        <div class="d-flex flex-wrap align-items-center gap-2 text-muted small">
+            <span>2015 – 2018</span>
+
             
+
             
         </div>
+
     </div>
     
 </section>
@@ -231,14 +249,18 @@
 
     
     <div class="mb-4">
+
         <h3 class="h6 fw-semibold mb-1">Junior Data Analyst</h3>
 
-        <p class="text-muted small mb-2">
-            Office of Academic Records, Assessment, and Planning, Monroe University — New Rochelle, New York<br />
-            2025 – ongoing
-        </p>
+        <div class="text-muted small mb-2">
+            Office of Academic Records, Assessment, and Planning, Monroe University — New Rochelle, New York
+        </div>
 
-        <ul class="ps-3">
+        <div class="text-muted small mb-3">
+            2025 – ongoing
+        </div>
+
+        <ul class="ps-3 mb-0">
             
             <li class="mb-1">Recreating and Optimizing 100+ dashboards on PowerBI to help the university track student performance, retention, and graduation rates.</li>
             
@@ -247,57 +269,73 @@
             <li class="mb-1">Updated the University's Library website using HTML, CSS, JavaScript and LibGuide platform to enhance user experience and accessibility.</li>
             
         </ul>
+
     </div>
     
     <div class="mb-4">
+
         <h3 class="h6 fw-semibold mb-1">Information Technology Peer Tutor</h3>
 
-        <p class="text-muted small mb-2">
-            Student Success Center, Monroe University — Bronx, New York<br />
-            2023 – 2025
-        </p>
+        <div class="text-muted small mb-2">
+            Student Success Center, Monroe University — Bronx, New York
+        </div>
 
-        <ul class="ps-3">
+        <div class="text-muted small mb-3">
+            2023 – 2025
+        </div>
+
+        <ul class="ps-3 mb-0">
             
             <li class="mb-1">Tutored students in Excel, databases, and Programming across multiple academic levels.</li>
             
             <li class="mb-1">Assisted alumni with real-world IT issues, including e-commerce website setup and troubleshooting.</li>
             
         </ul>
+
     </div>
     
     <div class="mb-4">
+
         <h3 class="h6 fw-semibold mb-1">Software Developer Intern</h3>
 
-        <p class="text-muted small mb-2">
-            New Rochelle Council of Community Services — New Rochelle, New York<br />
-            2023 – 2023
-        </p>
+        <div class="text-muted small mb-2">
+            New Rochelle Council of Community Services — New Rochelle, New York
+        </div>
 
-        <ul class="ps-3">
+        <div class="text-muted small mb-3">
+            2023 – 2023
+        </div>
+
+        <ul class="ps-3 mb-0">
             
             <li class="mb-1">Collaborated with a team to redesign the nonprofit's website using Next.js (TypeScript) and Tailwind CSS.</li>
             
             <li class="mb-1">Implemented Figma wireframes into functional interfaces and recreated designs using WordPress theme and plugins.</li>
             
         </ul>
+
     </div>
     
     <div class="mb-4">
+
         <h3 class="h6 fw-semibold mb-1">Resident Assistant</h3>
 
-        <p class="text-muted small mb-2">
-            Residence Life, Monroe University — New Rochelle, New York<br />
-            2022 – 2023
-        </p>
+        <div class="text-muted small mb-2">
+            Residence Life, Monroe University — New Rochelle, New York
+        </div>
 
-        <ul class="ps-3">
+        <div class="text-muted small mb-3">
+            2022 – 2023
+        </div>
+
+        <ul class="ps-3 mb-0">
             
             <li class="mb-1">Supported 50+ dorm rooms by resolving conflicts, reporting maintenance issues, and providing resources to students.</li>
             
             <li class="mb-1">Planned and led 10+ events per semester while collaborating with fellow RAs and Residence life staff to promote community engagement.</li>
             
         </ul>
+
     </div>
     
 </section>
@@ -310,40 +348,40 @@
 
     
     <div class="mb-4">
+
         <h3 class="h6 fw-semibold mb-1">12 Hackathon wins</h3>
 
-        <div class="text-muted small d-flex flex-wrap gap-2 mt-0">
-            <p>
-                Several East Coast Universities &amp; Major League Hacking
-            </p>
-            <i class="bi bi-dot"></i>
-            <p>2022-2024</p>
+        <div class="d-flex flex-wrap align-items-center gap-2 text-muted small mb-2">
+            <span>Several East Coast Universities &amp; Major League Hacking</span>
+            <span class="opacity-50">•</span>
+            <span>2022-2024</span>
         </div>
 
         <p class="mb-2">12 Hackathon wins across the U.S. (Yale, Princeton, Stony Brook, RPI, University of Penn), earning ~$4,000 in prizes.</p>
 
         
-        <a href="https://devpost.com/mrava" target="_blank" rel="noopener" class="text-decoration-none link-secondary">
+        <a href="https://devpost.com/mrava" target="_blank" class="text-decoration-none link-secondary small">
             <i class="bi bi-box-arrow-up-right me-1"></i>
             View
         </a>
         
+
     </div>
     
     <div class="mb-4">
+
         <h3 class="h6 fw-semibold mb-1">Dean's Award for Academic Excellence</h3>
 
-        <div class="text-muted small d-flex flex-wrap gap-2 mt-0">
-            <p>
-                Monroe University
-            </p>
-            <i class="bi bi-dot"></i>
-            <p>2025</p>
+        <div class="d-flex flex-wrap align-items-center gap-2 text-muted small mb-2">
+            <span>Monroe University</span>
+            <span class="opacity-50">•</span>
+            <span>2025</span>
         </div>
 
         <p class="mb-2">Awarded for outstanding academic achievement, leadership and impact.</p>
 
         
+
     </div>
     
 </section>
@@ -354,18 +392,21 @@
 <section class="mb-5">
     <h2 class="h4 fw-medium mb-4">Languages</h2>
 
-    <ul class="list-unstyled">
+    <ul class="list-unstyled mb-0">
         
         <li class="mb-2">
-            <strong>Malagasy</strong>: Native speaker
+            <strong>Malagasy</strong>
+            <span class="text-muted"> — Native speaker</span>
         </li>
         
         <li class="mb-2">
-            <strong>English</strong>: Fluent
+            <strong>English</strong>
+            <span class="text-muted"> — Fluent</span>
         </li>
         
         <li class="mb-2">
-            <strong>French</strong>: Fluent (DELF B2 Certified)
+            <strong>French</strong>
+            <span class="text-muted"> — Fluent (DELF B2 Certified)</span>
         </li>
         
     </ul>
@@ -378,10 +419,12 @@
     <h2 class="h4 fw-medium mb-4">Interests</h2>
 
     
-    <p class="mb-3">
-        <strong>Applied AI &amp; Data Systems</strong><br />
-        <span class="text-muted small">Machine Learning, Deep Learning, Data Analysis, Data Visualization, Big Data, Data Engineering, MCP, RAG</span>
-    </p>
+    <div class="mb-3">
+        <strong>Applied AI &amp; Data Systems</strong>
+        <div class="text-muted small mt-1">
+            Machine Learning, Deep Learning, Data Analysis, Data Visualization, Big Data, Data Engineering, MCP, RAG
+        </div>
+    </div>
     
 </section>
 
@@ -392,30 +435,28 @@
     <h2 class="h4 fw-medium mb-4">Certificates</h2>
 
     
-    <p class="mb-0">
-        <strong>CS50P - Introduction to Programming with Python</strong><br />
-    </p>
-    <div class="text-muted small d-flex flex-wrap gap-2">
-        <p>
-            Harvard University
-        </p>
-        <i class="bi bi-dot"></i>
-        <p>
-            2022
-        </p>
+    <div class="mb-3">
+
+        <strong>CS50P - Introduction to Programming with Python</strong>
+
+        <div class="d-flex flex-wrap align-items-center gap-2 text-muted small mt-1">
+            <span>Harvard University</span>
+            <span class="opacity-50">•</span>
+            <span>2022</span>
+        </div>
+
     </div>
     
-    <p class="mb-0">
-        <strong>DELF B2 - French Language Proficiency</strong><br />
-    </p>
-    <div class="text-muted small d-flex flex-wrap gap-2">
-        <p>
-            Alliance Française Madagascar
-        </p>
-        <i class="bi bi-dot"></i>
-        <p>
-            2020
-        </p>
+    <div class="mb-3">
+
+        <strong>DELF B2 - French Language Proficiency</strong>
+
+        <div class="d-flex flex-wrap align-items-center gap-2 text-muted small mt-1">
+            <span>Alliance Française Madagascar</span>
+            <span class="opacity-50">•</span>
+            <span>2020</span>
+        </div>
+
     </div>
     
 </section>
