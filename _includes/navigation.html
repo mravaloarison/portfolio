@@ -5,11 +5,25 @@
             {{ site.first_name }} {{ site.last_name }}
         </a>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <!-- Mobile Right Side -->
+        <div class="d-flex align-items-center gap-4 d-lg-none">
 
+            <div class="theme-switch theme-toggle">
+                <i class="bi bi-sun-fill theme-icon"></i>
+                <div class="switch-thumb"></div>
+                <i class="bi bi-moon-fill theme-icon"></i>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+        </div>
+
+        <!-- Desktop Collapse -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
             <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
 
                 {% for item in site.data.navigation %}
@@ -21,14 +35,17 @@
                 </li>
                 {% endfor %}
 
-                <!-- Theme toggle -->
-                <li class="nav-item">
-                    <button id="theme-toggle" class="btn btn-sm">
-                        <i class="bi bi-moon-fill"></i>
-                    </button>
-                </li>
-
             </ul>
+
+            <!-- Desktop Toggle -->
+            <div class="ms-lg-3 d-none d-lg-block">
+                <div class="theme-switch theme-toggle">
+                    <i class="bi bi-sun-fill theme-icon"></i>
+                    <div class="switch-thumb"></div>
+                    <i class="bi bi-moon-fill theme-icon"></i>
+                </div>
+            </div>
+
         </div>
     </div>
 </nav>

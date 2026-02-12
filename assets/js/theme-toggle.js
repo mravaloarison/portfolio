@@ -1,25 +1,21 @@
-(() => {
-	const toggleBtn = document.getElementById("theme-toggle");
-	const icon = toggleBtn.querySelector("i");
+const html = document.documentElement;
+const toggles = document.querySelectorAll(".theme-toggle");
 
-	const getTheme = () =>
-		localStorage.getItem("theme") ||
-		(window.matchMedia("(prefers-color-scheme: dark)").matches
-			? "dark"
-			: "light");
+if (!localStorage.getItem("theme")) {
+	localStorage.setItem("theme", "dark");
+}
 
-	const setTheme = (theme) => {
-		document.documentElement.setAttribute("data-bs-theme", theme);
-		localStorage.setItem("theme", theme);
-		icon.className =
-			theme === "dark" ? "bi bi-sun-fill" : "bi bi-moon-fill";
-	};
+function applyTheme(theme) {
+	html.setAttribute("data-bs-theme", theme);
+	localStorage.setItem("theme", theme);
+}
 
-	let currentTheme = getTheme();
-	setTheme(currentTheme);
+applyTheme(localStorage.getItem("theme"));
 
-	toggleBtn.addEventListener("click", () => {
-		currentTheme = currentTheme === "dark" ? "light" : "dark";
-		setTheme(currentTheme);
+toggles.forEach((toggle) => {
+	toggle.addEventListener("click", () => {
+		const current = html.getAttribute("data-bs-theme");
+		const next = current === "dark" ? "light" : "dark";
+		applyTheme(next);
 	});
-})();
+});
