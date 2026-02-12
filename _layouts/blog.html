@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<main class="container-fluid container-lg my-5">
+    <div class="row">
+
+        <aside class="col-md-4 col-lg-4 d-none d-md-block">
+            <div class="position-sticky me-5" style="top: 145px;">
+                {% include blog-sidebar.html %}
+            </div>
+        </aside>
+
+        <section class="col-12 col-md-8 col-lg-8">
+
+            <div class="d-md-none mb-4">
+                {% include blog-mobile-filter.html %}
+            </div>
+
+            {{ content }}
+
+        </section>
+
+    </div>
+</main>

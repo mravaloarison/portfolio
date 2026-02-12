@@ -1,0 +1,10 @@
+---
+layout: blog
+title: Blog
+---
+
+{% for post in paginator.posts %}
+{% include blog-post-card.html post=post %}
+{% endfor %}
+
+{% include blog-pagination.html %}

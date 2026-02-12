@@ -1,0 +1,24 @@
+---
+layout: blog
+---
+
+{% assign tag_name = page.url | split: '/' | last %}
+
+{% if tag_name == 'tag' or tag_name == '' %}
+<!-- If someone visits /tag/ directly, show all posts grouped -->
+{% for tag in site.tags %}
+<h5 class="fw-semibold mt-5 mb-3">#{{ tag[0] }}</h5>
+
+{% for post in tag[1] %}
+{% include blog-post-card.html post=post %}
+{% endfor %}
+{% endfor %}
+
+{% else %}
+<!-- If visiting /tag/something/ -->
+{% for post in site.posts %}
+{% if post.tags contains tag_name %}
+{% include blog-post-card.html post=post %}
+{% endif %}
+{% endfor %}
+{% endif %}

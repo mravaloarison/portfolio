@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-<div class="container my-5">
+<div class="container-fluid container-lg my-5">
   <div class="row">
     <aside class="col-md-4 d-none d-md-block">
       {% include cv-sidebar.html %}

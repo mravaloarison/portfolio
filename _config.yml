@@ -118,3 +118,10 @@ sections:
           date: 2020
           issuer: Alliance Française Madagascar
           icon: bi-tag
+
+# BLOG CONFIGURATION
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+plugins:
+    - jekyll-paginate

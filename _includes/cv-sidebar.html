@@ -1,11 +1,19 @@
-<div class="position-fixed top-3">
-    <ul class="nav nav-underline flex-column small">
-        <li class="nav-item"><a class="nav-link link-secondary px-0 py-0" href="#about">About</a></li>
-        <li class="nav-item"><a class="nav-link link-secondary px-0 py-0" href="#education">Education</a></li>
-        <li class="nav-item"><a class="nav-link link-secondary px-0 py-0" href="#experience">Experience</a></li>
-        <li class="nav-item"><a class="nav-link link-secondary px-0 py-0" href="#awards">Awards</a></li>
-        <li class="nav-item"><a class="nav-link link-secondary px-0 py-0" href="#languages">Languages</a></li>
-        <li class="nav-item"><a class="nav-link link-secondary px-0 py-0" href="#interests">Interests</a></li>
-        <li class="nav-item"><a class="nav-link link-secondary px-0 py-0" href="#certificates">Certificates</a></li>
+<div class="position-sticky me-5" style="top: 145px;">
+    <ul class="nav flex-column fs-6">
+
+        <li class="nav-item">
+            <a class="nav-link px-2 py-1 link-secondary " href="#about">
+                About
+            </a>
+        </li>
+
+        {% for section in site.sections %}
+        <li class="nav-item">
+            <a class="nav-link px-2 py-1 link-secondary " href="#{{ section[0] | downcase }}">
+                {{ section[0] }}
+            </a>
+        </li>
+        {% endfor %}
+
     </ul>
 </div>

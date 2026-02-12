@@ -1,0 +1,64 @@
+<nav class="mt-5">
+    <ul class="pagination justify-content-center gap-2 border-0">
+
+        {% if paginator.previous_page %}
+        <li>
+            <a class="px-3 py-1 border rounded text-decoration-none text-muted"
+                href="{{ paginator.previous_page_path | relative_url }}">
+                &laquo;
+            </a>
+        </li>
+        {% else %}
+        <li>
+            <span class="px-3 py-1 border rounded text-muted opacity-50">
+                &laquo;
+            </span>
+        </li>
+        {% endif %}
+
+        {% for page in (1..paginator.total_pages) %}
+
+        {% if page == paginator.page %}
+        <li>
+            <span class="px-3 py-1 border rounded fw-medium" style="border-color: var(--bs-secondary);
+                       background-color: rgba(var(--bs-secondary-rgb), 0.08);
+                       color: var(--bs-secondary);">
+                {{ page }}
+            </span>
+        </li>
+
+        {% elsif page == 1 %}
+        <li>
+            <a class="px-3 py-1 border rounded text-decoration-none text-muted" href="{{ '/blog/' | relative_url }}">
+                {{ page }}
+            </a>
+        </li>
+
+        {% else %}
+        <li>
+            <a class="px-3 py-1 border rounded text-decoration-none text-muted"
+                href="{{ '/blog/page' | append: page | append: '/' | relative_url }}">
+                {{ page }}
+            </a>
+        </li>
+        {% endif %}
+
+        {% endfor %}
+
+        {% if paginator.next_page %}
+        <li>
+            <a class="px-3 py-1 border rounded text-decoration-none text-muted"
+                href="{{ paginator.next_page_path | relative_url }}">
+                &raquo;
+            </a>
+        </li>
+        {% else %}
+        <li>
+            <span class="px-3 py-1 border rounded text-muted opacity-50">
+                &raquo;
+            </span>
+        </li>
+        {% endif %}
+
+    </ul>
+</nav>

@@ -12,7 +12,7 @@
 <body class="position-relative" data-bs-spy="scroll" data-bs-target="#cv-nav" data-bs-offset="100">
 
     <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary border-bottom" data-pagefind-ignore>
-    <div class="container">
+    <div class="container-fluid container-lg">
 
         <a class="navbar-brand fw-semibold" href="/">
             Mami Ravaloarison
@@ -53,19 +53,57 @@
     </div>
 </nav>
 
-    <main class="container py-3 my-4">
-        <div class="container my-5">
+    <main class="container-fluid container-lg py-2 py-lg-3 my-2 my-lg-4">
+        <div class="container-fluid container-lg my-5">
   <div class="row">
     <aside class="col-md-4 d-none d-md-block">
-      <div class="position-fixed top-3">
-    <ul class="nav nav-underline flex-column small">
-        <li class="nav-item"><a class="nav-link link-secondary px-0 py-0" href="#about">About</a></li>
-        <li class="nav-item"><a class="nav-link link-secondary px-0 py-0" href="#education">Education</a></li>
-        <li class="nav-item"><a class="nav-link link-secondary px-0 py-0" href="#experience">Experience</a></li>
-        <li class="nav-item"><a class="nav-link link-secondary px-0 py-0" href="#awards">Awards</a></li>
-        <li class="nav-item"><a class="nav-link link-secondary px-0 py-0" href="#languages">Languages</a></li>
-        <li class="nav-item"><a class="nav-link link-secondary px-0 py-0" href="#interests">Interests</a></li>
-        <li class="nav-item"><a class="nav-link link-secondary px-0 py-0" href="#certificates">Certificates</a></li>
+      <div class="position-sticky me-5" style="top: 145px;">
+    <ul class="nav flex-column fs-6">
+
+        <li class="nav-item">
+            <a class="nav-link px-2 py-1 link-secondary " href="#about">
+                About
+            </a>
+        </li>
+
+        
+        <li class="nav-item">
+            <a class="nav-link px-2 py-1 link-secondary " href="#education">
+                Education
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link px-2 py-1 link-secondary " href="#experience">
+                Experience
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link px-2 py-1 link-secondary " href="#awards">
+                Awards
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link px-2 py-1 link-secondary " href="#languages">
+                Languages
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link px-2 py-1 link-secondary " href="#interests">
+                Interests
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link px-2 py-1 link-secondary " href="#certificates">
+                Certificates
+            </a>
+        </li>
+        
+
     </ul>
 </div>
     </aside>
@@ -73,26 +111,53 @@
     <section class="col-12 col-md-8">
       <!-- Header -->
 <section class="mb-5">
-    <h1 class="h4 fw-medium mb-2">
-        Mami Ravaloarison
-    </h1>
 
-    <p class="text-muted small mb-2">Data Analyst</p>
+    <div class="d-lg-flex justify-content-between align-items-start">
 
-    <div class="d-flex gap-3 mb-4 text-muted small">
-        <a href="https://linkedin.com/in/mravaloarison" target="_blank" class="link-secondary text-decoration-none">
-            <i class="bi bi-linkedin me-1"></i> LinkedIn
-        </a>
+        <!-- Left side -->
+        <div>
+            <h1 class="h4 fw-medium mb-2">
+                Mami Ravaloarison
+            </h1>
 
-        <a href="https://github.com/mravaloarison" target="_blank" class="link-secondary text-decoration-none">
-            <i class="bi bi-github me-1"></i> GitHub
-        </a>
+            <p class="text-muted small mb-1">
+                Data Analyst
+            </p>
 
-        <a href="/assets/pdf/resume.pdf" class="link-secondary text-decoration-none">
-            <i class="bi bi-cloud-arrow-down me-1"></i> Resume
-        </a>
+            <p class="text-muted small mb-2">
+                New York, USA
+            </p>
+
+            <p class="mb-2">
+                <a href="mailto:mravaloarison@gmail.com" class="text-decoration-none">
+                    <i class="bi bi-envelope-fill me-1"></i>
+                    mravaloarison@gmail.com
+                </a>
+            </p>
+
+            <div class="d-flex flex-wrap gap-2 small">
+                <a href="https://linkedin.com/in/mravaloarison" target="_blank" class="text-decoration-none text-muted">
+                    <i class="bi bi-linkedin me-1"></i> LinkedIn
+                </a>
+                <i class="bi bi-dot"></i>
+                <a href="https://github.com/mravaloarison" target="_blank" class="text-decoration-none text-muted">
+                    <i class="bi bi-github me-1"></i> GitHub
+                </a>
+            </div>
+        </div>
+
+        <!-- Right side -->
+        <div class="mt-3 mt-lg-0">
+            <a href="/assets/pdf/resume.pdf" class="btn btn-outline-secondary" target="_blank">
+                <i class="bi bi-cloud-arrow-down me-1"></i> Resume
+            </a>
+        </div>
+
     </div>
+
 </section>
+
+
 
 <hr class="my-5" id="about" />
 
@@ -125,26 +190,34 @@
         <h3 class="h6 fw-semibold mb-1">
             Bachelor of Science (Magna Cum Laude), Computer Information Systems
         </h3>
-
-        <p class="text-muted small mb-2">
-            Monroe University — Bronx, New York<br />
-            2021 – 2025
-             · 3.7/4.0 GPA
-             · Minor: Mathematics
+        <p class="text-muted small mb-0">
+            Monroe University — Bronx, New York
         </p>
+        <div class="d-flex flex-wrap gap-2 text-muted small">
+
+            <p>2021 – 2025</p>
+            
+            <i class="bi bi-dot"></i>
+            <p>3.7/4.0 GPA</p>
+            
+            <i class="bi bi-dot"></i>
+            <p>Minor: Mathematics</p>
+        </div>
     </div>
     
     <div class="mb-4">
         <h3 class="h6 fw-semibold mb-1">
             Baccalauréat, Scientific
         </h3>
-
-        <p class="text-muted small mb-2">
-            Lycée Privé ACEEM — Madagascar<br />
-            2015 – 2018
-            
-            
+        <p class="text-muted small mb-0">
+            Lycée Privé ACEEM — Madagascar
         </p>
+        <div class="d-flex flex-wrap gap-2 text-muted small">
+
+            <p>2015 – 2018</p>
+            
+            
+        </div>
     </div>
     
 </section>
@@ -238,9 +311,13 @@
     <div class="mb-4">
         <h3 class="h6 fw-semibold mb-1">12 Hackathon wins</h3>
 
-        <p class="text-muted small mb-2">
-            Several East Coast Universities &amp; Major League Hacking · 2022-2024
-        </p>
+        <div class="text-muted small d-flex flex-wrap gap-2 mt-0">
+            <p>
+                Several East Coast Universities &amp; Major League Hacking
+            </p>
+            <i class="bi bi-dot"></i>
+            <p>2022-2024</p>
+        </div>
 
         <p class="mb-2">12 Hackathon wins across the U.S. (Yale, Princeton, Stony Brook, RPI, University of Penn), earning ~$4,000 in prizes.</p>
 
@@ -255,9 +332,13 @@
     <div class="mb-4">
         <h3 class="h6 fw-semibold mb-1">Dean's Award for Academic Excellence</h3>
 
-        <p class="text-muted small mb-2">
-            Monroe University · 2025
-        </p>
+        <div class="text-muted small d-flex flex-wrap gap-2 mt-0">
+            <p>
+                Monroe University
+            </p>
+            <i class="bi bi-dot"></i>
+            <p>2025</p>
+        </div>
 
         <p class="mb-2">Awarded for outstanding academic achievement, leadership and impact.</p>
 
@@ -310,19 +391,31 @@
     <h2 class="h4 fw-medium mb-4">Certificates</h2>
 
     
-    <p class="mb-3">
+    <p class="mb-0">
         <strong>CS50P - Introduction to Programming with Python</strong><br />
-        <span class="text-muted small">
-            Harvard University · 2022
-        </span>
     </p>
+    <div class="text-muted small d-flex flex-wrap gap-2">
+        <p>
+            Harvard University
+        </p>
+        <i class="bi bi-dot"></i>
+        <p>
+            2022
+        </p>
+    </div>
     
-    <p class="mb-3">
+    <p class="mb-0">
         <strong>DELF B2 - French Language Proficiency</strong><br />
-        <span class="text-muted small">
-            Alliance Française Madagascar · 2020
-        </span>
     </p>
+    <div class="text-muted small d-flex flex-wrap gap-2">
+        <p>
+            Alliance Française Madagascar
+        </p>
+        <i class="bi bi-dot"></i>
+        <p>
+            2020
+        </p>
+    </div>
     
 </section>
     </section>
