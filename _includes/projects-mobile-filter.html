@@ -1,0 +1,21 @@
+<h6 class="fw-semibold mb-3">Categories</h6>
+
+<div class="d-flex flex-wrap gap-2">
+
+    <a href="#" class="small border text-muted px-2 py-1 rounded text-decoration-none project-filter fw-medium"
+        data-category="">
+        All
+    </a>
+
+    {% assign categories = "work,personal,hackathons" | split: "," %}
+
+    {% for cat in categories %}
+    {% assign count = site.projects | where: "category", cat | size %}
+    <a href="#"
+        class="small border text-muted px-2 py-1 rounded text-decoration-none d-inline-flex align-items-center gap-1 project-filter"
+        data-category="{{ cat }}">
+        {{ cat | capitalize }} ({{ count }})
+    </a>
+    {% endfor %}
+
+</div>

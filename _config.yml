@@ -122,3 +122,9 @@ sections:
 # BLOG CONFIGURATION
 blog_description: >
     This is just a space where I write about whatever I’m thinking through, my honest thoughts on different subjects.
+
+# PROJECTS CONFIGURATION
+collections:
+    projects:
+        output: true
+        permalink: /projects/:name/

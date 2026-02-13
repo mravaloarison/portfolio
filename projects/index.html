@@ -1,0 +1,13 @@
+---
+layout: projects
+title: Projects
+permalink: /projects/
+---
+
+{% for project in site.projects reversed %}
+{% include project-card.html project=project %}
+{% endfor %}
+
+<nav class="mt-5">
+    <ul id="projects-pagination" class="pagination justify-content-center gap-2 border-0"></ul>
+</nav>
