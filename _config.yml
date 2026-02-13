@@ -124,6 +124,9 @@ blog_description: >
     This is just a space where I write about whatever I’m thinking through, my honest thoughts on different subjects.
 
 # PROJECTS CONFIGURATION
+projects_description: >
+    Selected work across product, engineering, and experiments.
+
 collections:
     projects:
         output: true
