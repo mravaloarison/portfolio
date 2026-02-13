@@ -1,0 +1,43 @@
+<hr class="my-4">
+
+<div class="d-flex align-items-center gap-3 flex-wrap">
+    <span class="text-muted small">Share</span>
+
+    <a href="https://twitter.com/intent/tweet?url={{ page.url | absolute_url }}&text={{ page.title | uri_escape }}"
+        target="_blank"
+        class="small border px-2 py-1 rounded text-decoration-none d-inline-flex align-items-center gap-1">
+        <i class="bi bi-twitter-x"></i>
+        Twitter
+    </a>
+
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ page.url | absolute_url }}" target="_blank"
+        class="small border px-2 py-1 rounded text-decoration-none d-inline-flex align-items-center gap-1">
+        <i class="bi bi-linkedin"></i>
+        LinkedIn
+    </a>
+
+    <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}" target="_blank"
+        class="small border px-2 py-1 rounded text-decoration-none d-inline-flex align-items-center gap-1">
+        <i class="bi bi-facebook"></i>
+        Facebook
+    </a>
+
+    <a href="https://www.reddit.com/submit?url={{ page.url | absolute_url }}&title={{ page.title | uri_escape }}"
+        target="_blank"
+        class="small border px-2 py-1 rounded text-decoration-none d-inline-flex align-items-center gap-1">
+        <i class="bi bi-reddit"></i>
+        Reddit
+    </a>
+
+    <a href="mailto:?subject={{ page.title | uri_escape }}&body={{ page.url | absolute_url }}"
+        class="small border px-2 py-1 rounded text-decoration-none d-inline-flex align-items-center gap-1">
+        <i class="bi bi-envelope"></i>
+        Email
+    </a>
+
+    <button onclick="copyLink(this)"
+        class="small border px-2 py-1 rounded bg-transparent d-inline-flex align-items-center gap-1">
+        <i class="bi bi-link-45deg"></i>
+        <span>Copy link</span>
+    </button>
+</div>

@@ -7,54 +7,14 @@ layout: default
     <div class="col-lg-8 col-xl-9">
 
       <article class="post-content">
-
-        <a href="{{ '/blog/' | relative_url }}" class="small text-decoration-none text-muted d-inline-block mb-5">
-          <i class="bi bi-arrow-left me-1"></i>
-          Back to Blog
-        </a>
-
-        <header class="mb-4">
-          <h1 class="h2 fw-semibold mb-2">
-            {{ page.title }}
-          </h1>
-
-          {% assign words = content | number_of_words %}
-          {% assign minutes = words | divided_by: 200 | plus: 1 %}
-
-
-          <div class="d-flex flex-wrap gap-2">
-            <p class="text-muted small mb-2">
-              {{ page.date | date: "%B %d, %Y" }}
-            </p>
-            <i class="bi bi-dot"></i>
-            <p class="text-muted small mb-2">
-              <i class="bi bi-stopwatch"></i>
-              {{ minutes }} min read
-            </p>
-            {% if page.tags %}
-            <i class="bi bi-dot"></i>
-            <p class="text-muted small mb-2">
-              <i class="bi bi-tag-fill"></i>
-              {{ page.tags }}
-            </p>
-            {% endif %}
-          </div>
-
-
-
-
-          {% if page.description %}
-          <p class="text-muted mb-3">
-            {{ page.description }}
-          </p>
-          {% endif %}
-        </header>
-
+        {% include post-header.html %}
         <div class="post-body">
           {{ content }}
         </div>
-
       </article>
+
+      {% include post-footer.html %}
+      {% include post-share.html %}
 
     </div>
   </div>
