@@ -34,10 +34,15 @@
                 style="background-color: rgba(255,193,7,0.15); color:#ffc107;">
                 <i class="bi bi-trophy-fill"></i>
                 {% if project.hackathon_winner %}
-                {{ project.hackathon_event }} – {{ project.hackathon_org }}
+                {{ project.hackathon_event }}
                 {% else %}
                 Hackathon Project
                 {% endif %}
+            </div>
+
+            <div class="small d-inline-flex align-items-center gap-2 px-3 py-1 rounded mb-3" style="color:#198754;">
+                <i class="bi bi-mortarboard-fill"></i>
+                {{ project.hackathon_org }}
             </div>
 
             {% elsif project.category == "work" %}
