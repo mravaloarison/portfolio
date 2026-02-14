@@ -8,7 +8,7 @@ date: 2021-04-01
 category: hackathons # work | personal | hackathons
 
 hackathon_winner: true
-hackathon_event: "Best Solo hacks x Best AI Apps with Cloudflare"
+hackathon_event: ["Best Solo hacks", "Best AI Apps with Cloudflare"]
 hackathon_org: "Rutgers University"
 
 tech: [auth0, cloudflare, twilio, video-to-transcript, workers-ai]

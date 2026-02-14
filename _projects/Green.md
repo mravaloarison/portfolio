@@ -8,7 +8,7 @@ date: 2021-01-01
 category: hackathons # work | personal | hackathons
 
 hackathon_winner: true
-hackathon_event: "Best Sustainability Hack"
+hackathon_event: ["Best Sustainability Hack"]
 hackathon_org: " Rensselaer Polytechnic Institute"
 
 tech: [Swift, SwiftUI, MapKit, Xcode, Gemini]

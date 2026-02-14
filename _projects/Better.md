@@ -8,7 +8,7 @@ date: 2021-12-12
 category: hackathons # work | personal | hackathons
 
 hackathon_winner: true
-hackathon_event: "Best Built on the Knot TransactionLink API by Knot API"
+hackathon_event: ["Best use of Knot API"]
 hackathon_org: "Princeton University"
 
 tech: [SwiftUI, Swift, Firebase, Firestore, Knotapi, TypeScript]

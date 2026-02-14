@@ -8,7 +8,7 @@ date: 2021-04-01
 category: hackathons # work | personal | hackathons
 
 hackathon_winner: true
-hackathon_event: "Best overall"
+hackathon_event: ["Best overall"]
 hackathon_org: "Stony Brook University"
 
 tech: [Flask, MongoDB, Speech Recognition, Python, OpenAI, React]

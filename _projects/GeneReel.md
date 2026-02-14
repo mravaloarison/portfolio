@@ -8,7 +8,7 @@ date: 2021-01-01
 category: hackathons # work | personal | hackathons
 
 hackathon_winner: true
-hackathon_event: " Most Creative Adobe Express Add-On "
+hackathon_event: [" Most Creative Adobe Express Add-On"]
 hackathon_org: "Yale University"
 
 tech: [Python, Gemini, Giphy API, Flask, JavaScript]

@@ -125,7 +125,7 @@ blog_description: >
 
 # PROJECTS CONFIGURATION
 projects_description: >
-    Selected work across product, engineering, and experiments.
+    This page is a collection of few projects i have built over time. Each one taught me something new about technology, design, or how to think better.
 
 collections:
     projects:

@@ -8,7 +8,7 @@ date: 2021-01-01
 category: hackathons # work | personal | hackathons
 
 hackathon_winner: true
-hackathon_event: " Most Useless App"
+hackathon_event: ["Most Useless App"]
 hackathon_org: "University of Pennsylvania"
 
 tech: [Manifest V3, JavaScript, Chrome Extensions API, Python, OpenAI]
