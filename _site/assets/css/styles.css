@@ -118,5 +118,84 @@ article a {
     transform: translateX(34px);
   }
 }
+/* ===============================
+   Universal Syntax Highlight Theme
+   Works for all languages
+   =============================== */
+/* keywords */
+.post-body .highlight .k,
+.post-body .highlight .kd,
+.post-body .highlight .kn,
+.post-body .highlight .kp,
+.post-body .highlight .kr,
+.post-body .highlight .kt {
+  color: #ff7ab2;
+}
+
+/* types */
+.post-body .highlight .kt,
+.post-body .highlight .nc {
+  color: #5cc8ff;
+}
+
+/* strings */
+.post-body .highlight .s,
+.post-body .highlight .sa,
+.post-body .highlight .sb,
+.post-body .highlight .sc,
+.post-body .highlight .sd,
+.post-body .highlight .s2 {
+  color: #b1a1c4;
+}
+
+/* numbers */
+.post-body .highlight .m,
+.post-body .highlight .mi,
+.post-body .highlight .mf {
+  color: #79c0ff;
+}
+
+/* comments */
+.post-body .highlight .c,
+.post-body .highlight .c1,
+.post-body .highlight .cm {
+  color: #8b949e;
+  font-style: italic;
+}
+
+/* functions */
+.post-body .highlight .nf {
+  color: #4ec9b0;
+}
+
+/* variables */
+.post-body .highlight .n {
+  color: #959fa8;
+}
+
+/* operators */
+.post-body .highlight .o {
+  color: #ff9d00;
+}
+
+/* punctuation */
+.post-body .highlight .p {
+  color: #959fa8;
+}
+
+/* class names */
+.post-body .highlight .nc {
+  color: #ffa657;
+}
+
+/* constants */
+.post-body .highlight .no {
+  color: #79c0ff;
+}
+
+/* builtins */
+.post-body .highlight .nb {
+  color: #ffa657;
+}
 
 /*# sourceMappingURL=styles.css.map */
