@@ -15,6 +15,7 @@ tech: [SwiftUI, Swift, Firebase, Firestore, Knotapi, TypeScript]
 image: /assets/images/Better.png
 ---
 
+
 The idea was to let users bet on themselves so their friends could motivate them to do better. For example, someone could bet on getting an “A” on their next math exam or on stopping junk food. Their friends would support them by betting against them.
 
 If a user succeeds, they win back the amount they staked plus the money contributed by their friends. If they fail, their friends get their money refunded along with an additional 100% of what they contributed, paid out from the user’s stake. Any remaining funds go to a charity chosen by the user.

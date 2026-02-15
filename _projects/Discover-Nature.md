@@ -26,6 +26,12 @@ tech:
 image: /assets/images/DiscoverNature.png
 ---
 
+<div class="mb-3">
+    <a href="/assets/images/DiscoverNature.png">
+        <img src="/assets/images/DiscoverNature.png" class="img-thumbnail" alt="Discover Nature Screen Shot during dev mode">
+    </a>
+</div>
+
 Despite the hype around new technologies and vast environmental datasets, it seems like the general public needs advanced biological training to interpret the data. As a result, many people simply give up. The next generation spends increasing amounts of time on mobile devices and I firmly believe we miss a critical opportunity if we view this technology solely as a distraction rather than a tool for exploration.
 
 I started building Discover Nature as a more accessible version of iNaturalist for non-scientists. But I also wanted users to enjoy the experience, so I added daily quizzes based on species they love or want to learn about, along with random facts to keep learning engaging.

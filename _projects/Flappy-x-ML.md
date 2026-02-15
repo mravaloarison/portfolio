@@ -15,6 +15,10 @@ tech: [Mediapipe, JavaScript, KaboomJS, Face detection]
 image: /assets/images/Flappy-x-ML.png
 ---
 
+<div class="ratio ratio-16x9 mb-4">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6fLMEm1HIjQ?si=ho2iU7Nfr7hIAjLn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 I built it because I was curious about what integrating a machine learning model with a prebuilt MediaPipe model would look like and what fun use cases it could have.
 
 #### Demo Links

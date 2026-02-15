@@ -15,6 +15,10 @@ tech: [Python, Gemini, Giphy API, Flask, JavaScript]
 image: /assets/images/GeneReel.png
 ---
 
+<div class="ratio ratio-16x9 mb-4">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dZgIqzT754Y?si=13BAWYjRr4EKe_hU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 Teenagers are more likely to be influenced by social media than by articles. We believed that if we want to make a positive impact on the future, we need to influence them in a meaningful way, which led us to build an add-on for Adobe Express to make content creators’ workflows faster and more productive.
 
 We built an Adobe Express add-on that helps users create educational or awareness Reels and Shorts faster by generating half of the content for them.

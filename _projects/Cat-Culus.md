@@ -15,6 +15,10 @@ tech: [Python, Gemini, OpenCV, PyGames, Mediapipe]
 image: /assets/images/Cat-Culus.png
 ---
 
+<div class="ratio ratio-16x9 mb-4">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ToHxbKb4sEQ?si=IASL36vgsuieB2mu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 Cat-Culus is a PyGame project inspired by Google’s Cat Academy (Third Edition). Instead of drawing patterns with a mouse to save the cat, players solve dynamically generated math problems. If they answer correctly, the cat is saved; if not, it gets haunted by a ghost that slowly approaches while the problem is active.
 
 I worked with two other developers on this project (shoutout to [Jasmina](https://www.linkedin.com/in/jasmina-abdullaeva-142a55207/) and [Gabby](https://www.linkedin.com/in/gabriela-angarita-6b85a1299/)), where my role was integrating hand detection and orchestrating the game logic. The game reads numbers from the player’s left and right hands and uses them to generate math problems that must be solved using those values. For example, if the target equation is left hand + right hand = 8, the player could display combinations like 4 and 4, 3 and 5, or 5 and 3. If the correct combination is shown, the cat advances to the next challenge; otherwise, the ghost reaches it.
