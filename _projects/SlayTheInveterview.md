@@ -15,6 +15,10 @@ tech: [Flask, MongoDB, Speech Recognition, Python, OpenAI, React]
 image: /assets/images/SlayTheInterview.png
 ---
 
+<div class="ratio ratio-16x9 mb-4">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Q6GH9J05LaM?si=ylAborTilKTgUDXm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 Although this type of app is very popular now, it wasn’t as well known when we built it. It’s a platform for mock interviews tailored to the jobs users plan to apply for. The idea came from [Nelson Wang](https://www.linkedin.com/in/nelson-wang-yang/?locale=en_US), who also orchestrated the app’s core logic.
 
 The concept is straightforward: users enter the job they’re preparing for and can even paste the job description. The AI then generates mock interview questions, and users respond by recording their answers. Afterward, the app analyzes their responses and provides feedback on what they could improve.
