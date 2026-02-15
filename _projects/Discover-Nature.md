@@ -2,7 +2,7 @@
 layout: project
 title: Discover Nature
 description: >
-    This project makes biodiversity education accessible and exciting by mixing gamified learning with hard science. The ultimate goal is helping anyone to understand and ultimately protect the ecosystems they encounter every day.
+    I started building Discover Nature as a more accessible version of iNaturalist for non-scientists. But I also wanted users to enjoy the experience, so I added daily quizzes based on species they love or want to learn about, along with random facts to keep learning engaging.
 
 date: 2023-01-01
 category: personal # work | personal | hackathons
