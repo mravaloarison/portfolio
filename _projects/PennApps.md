@@ -15,7 +15,7 @@ tech: [Manifest V3, JavaScript, Chrome Extensions API, Python, OpenAI]
 image: /assets/images/PennApps.png
 ---
 
-A funny Chrome extension we built at the University of Pennsylvania during PennApps just for fun. We (Savar Jain and I, shoutout to him) injected a script that forces everything you type on your keyboard to become “I love PennApps,” and replaces all images and videos you see with PennApps XXV visuals.
+A funny Chrome extension we built at the University of Pennsylvania during PennApps just for fun. We ([Savar Jain](https://www.linkedin.com/in/savarjain/) and I, shoutout to him) injected a script that forces everything you type on your keyboard to become “I love PennApps,” and replaces all images and videos you see with PennApps XXV visuals.
 
 We didn’t really have time to seriously hack, but we had so much fun networking and meeting people that we decided to build something just to remember the moment. It’s honestly one of the coolest and fastest hacks I’ve done; it took us about 5–10 minutes.
 
