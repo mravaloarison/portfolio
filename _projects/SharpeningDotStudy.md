@@ -12,7 +12,7 @@ hackathon_event: ["Best Solo hacks", "Best AI Apps with Cloudflare"]
 hackathon_org: "Rutgers University"
 
 tech: [auth0, cloudflare, twilio, video-to-transcript, workers-ai]
-image: /assets/images/
+image: /assets/images/SharpeningDotStudy.png
 ---
 
 The concept was to save learners time and maximize learning from video content. The platform extracts key concepts from videos, summarizes lessons, and delivers important points through spaced-repetition text messages. It also generates quizzes based on the material to reinforce knowledge retention.

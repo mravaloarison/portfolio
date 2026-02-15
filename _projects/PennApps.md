@@ -12,7 +12,7 @@ hackathon_event: ["Most Useless App"]
 hackathon_org: "University of Pennsylvania"
 
 tech: [Manifest V3, JavaScript, Chrome Extensions API, Python, OpenAI]
-image: /assets/images/
+image: /assets/images/PennApps.png
 ---
 
 A funny Chrome extension we built at the University of Pennsylvania during PennApps just for fun. We (Savar Jain and I, shoutout to him) injected a script that forces everything you type on your keyboard to become “I love PennApps,” and replaces all images and videos you see with PennApps XXV visuals.

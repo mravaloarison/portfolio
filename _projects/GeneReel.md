@@ -12,7 +12,7 @@ hackathon_event: [" Most Creative Adobe Express Add-On"]
 hackathon_org: "Yale University"
 
 tech: [Python, Gemini, Giphy API, Flask, JavaScript]
-image: /assets/images/
+image: /assets/images/GeneReel.png
 ---
 
 Teenagers are more likely to be influenced by social media than by articles. We believed that if we want to make a positive impact on the future, we need to influence them in a meaningful way, which led us to build an add-on for Adobe Express to make content creators’ workflows faster and more productive.

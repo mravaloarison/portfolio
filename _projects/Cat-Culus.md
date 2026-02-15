@@ -12,7 +12,7 @@ hackathon_event:
 hackathon_org:
 
 tech: [Python, Gemini, OpenCV, PyGames, Mediapipe]
-image: /assets/images/
+image: /assets/images/Cat-Culus.png
 ---
 
 Cat-Culus is a PyGame project inspired by Google’s Cat Academy (Third Edition). Instead of drawing patterns with a mouse to save the cat, players solve dynamically generated math problems. If they answer correctly, the cat is saved; if not, it gets haunted by a ghost that slowly approaches while the problem is active.

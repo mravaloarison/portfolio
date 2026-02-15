@@ -12,7 +12,7 @@ hackathon_event: ["Best use of Knot API"]
 hackathon_org: "Princeton University"
 
 tech: [SwiftUI, Swift, Firebase, Firestore, Knotapi, TypeScript]
-image: /assets/images/
+image: /assets/images/Better.png
 ---
 
 The idea was to let users bet on themselves so their friends could motivate them to do better. For example, someone could bet on getting an “A” on their next math exam or on stopping junk food. Their friends would support them by betting against them.

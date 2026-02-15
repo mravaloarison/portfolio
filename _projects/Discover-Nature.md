@@ -23,7 +23,7 @@ tech:
         Firestore,
         iNaturalist API,
     ]
-image: /assets/images/
+image: /assets/images/DiscoverNature.png
 ---
 
 Despite the hype around new technologies and vast environmental datasets, it seems like the general public needs advanced biological training to interpret the data. As a result, many people simply give up. The next generation spends increasing amounts of time on mobile devices and I firmly believe we miss a critical opportunity if we view this technology solely as a distraction rather than a tool for exploration.

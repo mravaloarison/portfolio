@@ -12,7 +12,7 @@ hackathon_event:
 hackathon_org:
 
 tech: [SharePoint, Microsoft Office]
-image: /assets/images/
+image: /assets/images/ARAPSharePoint.png
 ---
 
 Besides my data analytics work, I also built and maintained a SharePoint site for the ARAP Office. I wasn’t exposed to SharePoint until I started the project, but it was easy to pick up since it mainly involved drag-and-drop components. There were also ways to inject a few lines of code or use README-style formatting to customize certain sections.

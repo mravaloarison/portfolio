@@ -12,7 +12,7 @@ hackathon_event:
 hackathon_org:
 
 tech: [Mediapipe, JavaScript, KaboomJS, Face detection]
-image: /assets/images/
+image: /assets/images/Flappy-x-ML.png
 ---
 
 I built it because I was curious about what integrating a machine learning model with a prebuilt MediaPipe model would look like and what fun use cases it could have.

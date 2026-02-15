@@ -12,7 +12,7 @@ hackathon_event:
 hackathon_org:
 
 tech: [Excell, PowerBI, Microsoft Office]
-image: /assets/images/
+image: /assets/images/ARAPPowerBI.jpeg
 ---
 
 I was offered a Junior Data Analyst position at Monroe University before I graduated in June 2025. I officially started in July 2025 and am currently still in the role. At the time, I didn’t fully understand what the position would involve, since my background was primarily in software development.

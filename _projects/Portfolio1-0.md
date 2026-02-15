@@ -12,7 +12,7 @@ hackathon_event:
 hackathon_org:
 
 tech: [Next.Js, Vercel, GreenSock, Material UI]
-image: /assets/images/
+image: /assets/images/Portfoliov1.0.png
 ---
 
 Before graduating, I had already won all my hackathons and knew it was time to start applying for jobs, like a “welcome to the real world” moment. But I didn’t have a platform to showcase my work or introduce who I was. At the same time, I was dealing with paperwork and deadlines, which made everything feel rushed.

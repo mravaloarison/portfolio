@@ -12,7 +12,7 @@ hackathon_event: ["Best overall"]
 hackathon_org: "Stony Brook University"
 
 tech: [Flask, MongoDB, Speech Recognition, Python, OpenAI, React]
-image: /assets/images/
+image: /assets/images/SlayTheInterview.png
 ---
 
 Although this type of app is very popular now, it wasn’t as well known when we built it. It’s a platform for mock interviews tailored to the jobs users plan to apply for. The idea came from Nelson Wang, who also orchestrated the app’s core logic.
