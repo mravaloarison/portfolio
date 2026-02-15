@@ -21,4 +21,4 @@ So I quickly built a portfolio, with a lot of help from AI, just to get somethin
 
 I built it with Next.js, Material UI, and GSAP, and hosted it on Vercel because they were fast to work with and easy to set up.
 
-- [Link]()
+- [Watch live](https://student-portfolio-pearl-ten.vercel.app/)

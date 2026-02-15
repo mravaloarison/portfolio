@@ -15,6 +15,12 @@ tech: [Excell, PowerBI, Microsoft Office]
 image: /assets/images/ARAPPowerBI.jpeg
 ---
 
+<div class="mb-3">
+    <a href="/assets/images/ARAPPowerBI.jpeg">
+        <img src="/assets/images/ARAPPowerBI.jpeg" class="img-thumbnail" alt="Discover Nature Screen Shot during dev mode">
+    </a>
+</div>
+
 I was offered a Junior Data Analyst position at Monroe University before I graduated in June 2025. I officially started in July 2025 and am currently still in the role. At the time, I didn’t fully understand what the position would involve, since my background was primarily in software development.
 
 I didn’t start immediately after graduation because I was waiting for my EAD card. When I finally began in July, I found the work surprisingly enjoyable. I liked seeing data visualized in dashboards, even though I didn’t fully understand what everything represented at first. It simply looked interesting to me.
