@@ -2,14 +2,14 @@
     <ul class="nav flex-column fs-6">
 
         <li class="nav-item">
-            <a class="nav-link px-2 py-1 link-secondary " href="#about">
+            <a class="nav-link px-3 py-1 link-secondary " href="#about">
                 About
             </a>
         </li>
 
         {% for section in site.sections %}
         <li class="nav-item">
-            <a class="nav-link px-2 py-1 link-secondary " href="#{{ section[0] | downcase }}">
+            <a class="nav-link px-3 py-1 link-secondary " href="#{{ section[0] | downcase }}">
                 {{ section[0] }}
             </a>
         </li>

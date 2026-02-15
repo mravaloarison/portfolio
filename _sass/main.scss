@@ -18,14 +18,12 @@ hr {
 
 // Navigation styles for CV sidebar
 .nav .nav-link {
-  border-left: 2px solid transparent;
-  padding-left: 0.6rem;
+  border-left: 6px solid transparent;
 }
 
 .nav .nav-link.active {
-  border-left: 2px solid var(--bs-secondary);
-  background-color: rgba(var(--bs-secondary-rgb), 0.08);
-  color: var(--bs-secondary) !important;
+  border-left: 6px solid var(--bs-light);
+  color: var(--bs-light) !important;
   font-weight: 500;
 }
 
